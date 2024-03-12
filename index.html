@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App by Sheikh Nizam</title>
+<link rel="stylesheet" href="stylesheet/global.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input id="search-bar" type="text" placeholder="Search the name of city..." autocomplete="off">
+            <button id="search-btn"><img src="images/search.png" alt=""></button>
+        </div>
+        <div class="weather">
+            <img class="weather_icon" src="images/rain.png">
+            <h1 class="temp">22°C</h1>
+            <h2 class="cityName">Mumbai</h2>
+        </div>
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png" alt="">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/wind.png" alt="">
+                <div>
+                    <p class="wind">22.5 km/h</p>
+                    <p>Windspeed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
